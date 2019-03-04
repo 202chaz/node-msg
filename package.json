@@ -1,0 +1,25 @@
+{
+  "name": "node-msg",
+  "version": "1.0.0",
+  "description": "Messaging app built with Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Chaz Haskins",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/body-parser": "^1.17.0",
+    "@types/mongoose": "^5.3.20",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.17",
+    "mongoose-timestamp": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
